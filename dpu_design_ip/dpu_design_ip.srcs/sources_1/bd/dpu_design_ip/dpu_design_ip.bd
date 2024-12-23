@@ -1,0 +1,13 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "name": "dpu_design_ip",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "gen_directory": "../../../../dpu_design_ip.gen/sources_1/bd/dpu_design_ip"
+    },
+    "design_tree": {}
+  }
+}

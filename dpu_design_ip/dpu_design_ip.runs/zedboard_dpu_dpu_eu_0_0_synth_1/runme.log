@@ -1,0 +1,1357 @@
+
+*** Running vivado
+    with args -log zedboard_dpu_dpu_eu_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zedboard_dpu_dpu_eu_0_0.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source zedboard_dpu_dpu_eu_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/yasin/Desktop/zcu102-dpu-trd-2019-1-timer/pl/srcs/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+Command: synth_design -top zedboard_dpu_dpu_eu_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15700
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1063.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zedboard_dpu_dpu_eu_0_0' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/synth/zedboard_dpu_dpu_eu_0_0.v:62]
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1' (14#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:78059]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (51#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:78059]
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1__parameterized0' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1__parameterized0' (61#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1__parameterized1' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1__parameterized1' (67#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6157] synthesizing module 'DSP48E1__parameterized2' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6155] done synthesizing module 'DSP48E1__parameterized2' (80#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12464]
+INFO: [Synth 8-6155] done synthesizing module 'zedboard_dpu_dpu_eu_0_0' (104#1) [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/synth/zedboard_dpu_dpu_eu_0_0.v:62]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 1483.844 ; gain = 420.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 1483.844 ; gain = 420.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 1483.844 ; gain = 420.637
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1521.160 ; gain = 9.172
+INFO: [Netlist 29-17] Analyzing 211 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/zedboard_dpu_dpu_eu_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/zedboard_dpu_dpu_eu_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_dpu_eu_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_dpu_eu_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/zedboard_dpu_dpu_eu_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/zedboard_dpu_dpu_eu_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0/zedboard_dpu_dpu_eu_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zedboard_dpu_dpu_eu_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zedboard_dpu_dpu_eu_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1927.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1948.965 ; gain = 21.469
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:03 ; elapsed = 00:01:15 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:03 ; elapsed = 00:01:15 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_dpu_eu_0_0_synth_1/dont_touch.xdc, line 24).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:15 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 's_d84f1e7f_reg' in module 'm_bb6c4a2d'
+INFO: [Synth 8-802] inferred FSM for state register 's_98775133_reg' in module 'm_e04d46ad'
+INFO: [Synth 8-802] inferred FSM for state register 's_606be15e_reg' in module 'm_d32f040b'
+INFO: [Synth 8-802] inferred FSM for state register 'g_2b070d9a[0].s_59edf75a_reg' in module 'm_8ae180dd'
+INFO: [Synth 8-802] inferred FSM for state register 'g_2b070d9a[1].s_59edf75a_reg' in module 'm_8ae180dd'
+INFO: [Synth 8-802] inferred FSM for state register 'g_be0756b3[0].s_47e4cdbc_reg' in module 'm_705b8e64'
+INFO: [Synth 8-802] inferred FSM for state register 's_a19eceb9_reg' in module 'm_ec027a2d'
+INFO: [Synth 8-802] inferred FSM for state register 's_7a66e1a8_reg' in module 'm_ec027a2d'
+INFO: [Synth 8-802] inferred FSM for state register 's_e1f89317_reg' in module 'm_ec027a2d'
+INFO: [Synth 8-802] inferred FSM for state register 's_440eab98_reg' in module 'm_9b7d0c83'
+INFO: [Synth 8-802] inferred FSM for state register 's_e7841b21_reg' in module 'm_da50e755'
+INFO: [Synth 8-802] inferred FSM for state register 's_f7ed2c35_reg' in module 'm_87e9fe1f'
+INFO: [Synth 8-802] inferred FSM for state register 's_c37c4877_reg' in module 'm_87e9fe1f'
+INFO: [Synth 8-802] inferred FSM for state register 's_de29fffd_reg' in module 'm_b819d53d'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                               00 |                               00
+                   S_CFG |                               01 |                               01
+                  S_WORK |                               10 |                               10
+                  S_DONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_d84f1e7f_reg' using encoding 'sequential' in module 'm_bb6c4a2d'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                             0001 |                              000
+                 S_FETCH |                             0010 |                              001
+                   S_DPD |                             0100 |                              010
+                  S_SEND |                             1000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_98775133_reg' using encoding 'one-hot' in module 'm_e04d46ad'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                            00001 |                              000
+                 S_FETCH |                            00010 |                              001
+                   S_DPD |                            00100 |                              010
+                  S_SEND |                            01000 |                              011
+                  S_EXEC |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_606be15e_reg' using encoding 'one-hot' in module 'm_d32f040b'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+                   S_CFG |                              001 |                              001
+                 S_PARSE |                              010 |                              010
+                  S_SEND |                              011 |                              011
+                  S_DONE |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'g_2b070d9a[1].s_59edf75a_reg' using encoding 'sequential' in module 'm_8ae180dd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              000 |                              000
+                   S_CFG |                              001 |                              001
+                 S_PARSE |                              010 |                              010
+                  S_SEND |                              011 |                              011
+                  S_DONE |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'g_2b070d9a[0].s_59edf75a_reg' using encoding 'sequential' in module 'm_8ae180dd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                                0 |                             0000
+               ST_TRANS0 |                                1 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'g_be0756b3[0].s_47e4cdbc_reg' using encoding 'sequential' in module 'm_705b8e64'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_a19eceb9_reg' using encoding 'sequential' in module 'm_ec027a2d'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               00 |                               00
+                 iSTATE1 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_7a66e1a8_reg' using encoding 'sequential' in module 'm_ec027a2d'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               00 |                               00
+                 iSTATE1 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_e1f89317_reg' using encoding 'sequential' in module 'm_ec027a2d'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   FIRST |                               01 |                               01
+                  MIDDLE |                               10 |                               10
+                    LAST |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_440eab98_reg' using encoding 'sequential' in module 'm_9b7d0c83'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               STAT_IDLE |                            00001 |                              000
+               STAT_CONF |                            00010 |                              001
+              STAT_DELAY |                            00100 |                              010
+               STAT_WORK |                            01000 |                              011
+               STAT_DONE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_e7841b21_reg' using encoding 'one-hot' in module 'm_da50e755'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STAT_INIT0 |                          0000001 |                              000
+              STAT_INIT1 |                          0000010 |                              001
+              STAT_INIT2 |                          0000100 |                              010
+              STAT_INIT3 |                          0001000 |                              011
+              STAT_INIT4 |                          0010000 |                              100
+             STAT_ASSIGN |                          0100000 |                              110
+              STAT_DELAY |                          1000000 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_c37c4877_reg' using encoding 'one-hot' in module 'm_87e9fe1f'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                 iSTATE0 |                               01 |                               10
+                 iSTATE2 |                               10 |                               11
+                  iSTATE |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_f7ed2c35_reg' using encoding 'sequential' in module 'm_87e9fe1f'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                         00000001 |                              000
+                  RD_CMD |                         10000000 |                              001
+                RD_DELAY |                         01000000 |                              111
+                 RD_DATA |                         00100000 |                              010
+                  WR_CMD |                         00010000 |                              011
+                 WR_DATA |                         00001000 |                              100
+                 WR_RESP |                         00000010 |                              110
+                  iSTATE |                         00000100 |                              101
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_de29fffd_reg' using encoding 'one-hot' in module 'm_b819d53d'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:20 ; elapsed = 00:01:34 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d' (m_56d87b8a__parameterized0) to 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[3].u_851ed96d'
+INFO: [Synth 8-223] decloning instance 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d' (m_56d87b8a__parameterized0) to 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d'
+INFO: [Synth 8-223] decloning instance 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d' (m_56d87b8a__parameterized0) to 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[3].u_851ed96d'
+INFO: [Synth 8-223] decloning instance 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d' (m_56d87b8a__parameterized0) to 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d'
+INFO: [Synth 8-223] decloning instance 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d' (m_56d87b8a__parameterized0) to 'inst/g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[3].u_851ed96d'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   40 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 16    
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input   29 Bit       Adders := 6     
+	   3 Input   23 Bit       Adders := 2     
+	   2 Input   23 Bit       Adders := 2     
+	   3 Input   22 Bit       Adders := 24    
+	   3 Input   20 Bit       Adders := 96    
+	   2 Input   19 Bit       Adders := 4     
+	   3 Input   19 Bit       Adders := 2     
+	   3 Input   18 Bit       Adders := 192   
+	   2 Input   17 Bit       Adders := 9     
+	   4 Input   16 Bit       Adders := 2     
+	   3 Input   16 Bit       Adders := 4     
+	   2 Input   16 Bit       Adders := 26    
+	   3 Input   15 Bit       Adders := 2     
+	   3 Input   14 Bit       Adders := 2     
+	   2 Input   14 Bit       Adders := 4     
+	   2 Input   13 Bit       Adders := 5     
+	   3 Input   13 Bit       Adders := 8     
+	   2 Input   12 Bit       Adders := 32    
+	   3 Input   12 Bit       Adders := 12    
+	   2 Input   11 Bit       Adders := 101   
+	   3 Input   11 Bit       Adders := 20    
+	   2 Input   10 Bit       Adders := 18    
+	   2 Input    9 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 65    
+	   2 Input    7 Bit       Adders := 32    
+	   3 Input    7 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 85    
+	   5 Input    6 Bit       Adders := 2     
+	   3 Input    6 Bit       Adders := 2     
+	   4 Input    6 Bit       Adders := 4     
+	   3 Input    5 Bit       Adders := 48    
+	   2 Input    5 Bit       Adders := 42    
+	   2 Input    4 Bit       Adders := 39    
+	   5 Input    4 Bit       Adders := 2     
+	   4 Input    4 Bit       Adders := 2     
+	   3 Input    4 Bit       Adders := 6     
+	   2 Input    3 Bit       Adders := 28    
+	   2 Input    2 Bit       Adders := 34    
+	   2 Input    1 Bit       Adders := 1     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
+	   2 Input      7 Bit         XORs := 6     
+	   2 Input      6 Bit         XORs := 15    
+	   2 Input      5 Bit         XORs := 3     
+	   2 Input      3 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              576 Bit    Registers := 1     
+	              384 Bit    Registers := 2     
+	              336 Bit    Registers := 1     
+	              320 Bit    Registers := 2     
+	              256 Bit    Registers := 1     
+	              192 Bit    Registers := 6     
+	              160 Bit    Registers := 7     
+	              128 Bit    Registers := 5     
+	              112 Bit    Registers := 2     
+	              111 Bit    Registers := 6     
+	              110 Bit    Registers := 2     
+	              109 Bit    Registers := 2     
+	              108 Bit    Registers := 1     
+	              103 Bit    Registers := 2     
+	              102 Bit    Registers := 1     
+	               98 Bit    Registers := 2     
+	               96 Bit    Registers := 159   
+	               90 Bit    Registers := 22    
+	               73 Bit    Registers := 2     
+	               65 Bit    Registers := 4     
+	               64 Bit    Registers := 5     
+	               58 Bit    Registers := 1     
+	               57 Bit    Registers := 1     
+	               53 Bit    Registers := 1     
+	               52 Bit    Registers := 4     
+	               45 Bit    Registers := 4     
+	               44 Bit    Registers := 19    
+	               40 Bit    Registers := 7     
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 678   
+	               29 Bit    Registers := 46    
+	               28 Bit    Registers := 65    
+	               26 Bit    Registers := 1     
+	               25 Bit    Registers := 24    
+	               24 Bit    Registers := 13    
+	               23 Bit    Registers := 2     
+	               22 Bit    Registers := 17    
+	               20 Bit    Registers := 163   
+	               19 Bit    Registers := 10    
+	               18 Bit    Registers := 204   
+	               17 Bit    Registers := 10    
+	               16 Bit    Registers := 82    
+	               14 Bit    Registers := 8     
+	               13 Bit    Registers := 19    
+	               12 Bit    Registers := 55    
+	               11 Bit    Registers := 266   
+	               10 Bit    Registers := 39    
+	                9 Bit    Registers := 7     
+	                8 Bit    Registers := 1037  
+	                7 Bit    Registers := 20    
+	                6 Bit    Registers := 86    
+	                5 Bit    Registers := 77    
+	                4 Bit    Registers := 147   
+	                3 Bit    Registers := 129   
+	                2 Bit    Registers := 197   
+	                1 Bit    Registers := 3429  
++---RAMs : 
+	             192K Bit	(2048 X 96 bit)          RAMs := 22    
+	              55K Bit	(512 X 111 bit)          RAMs := 1     
+	               64 Bit	(16 X 4 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  576 Bit        Muxes := 1     
+	   2 Input  336 Bit        Muxes := 1     
+	   2 Input  320 Bit        Muxes := 2     
+	   2 Input  256 Bit        Muxes := 1     
+	   2 Input  192 Bit        Muxes := 1     
+	   2 Input  160 Bit        Muxes := 2     
+	   2 Input   96 Bit        Muxes := 62    
+	  13 Input   96 Bit        Muxes := 26    
+	   4 Input   96 Bit        Muxes := 32    
+	   2 Input   90 Bit        Muxes := 14    
+	   4 Input   90 Bit        Muxes := 8     
+	   2 Input   65 Bit        Muxes := 4     
+	   2 Input   45 Bit        Muxes := 4     
+	   2 Input   44 Bit        Muxes := 23    
+	   2 Input   40 Bit        Muxes := 3     
+	   3 Input   40 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 16    
+	   9 Input   32 Bit        Muxes := 1     
+	   5 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 1     
+	   8 Input   32 Bit        Muxes := 1     
+	   2 Input   29 Bit        Muxes := 38    
+	   3 Input   29 Bit        Muxes := 6     
+	   4 Input   28 Bit        Muxes := 12    
+	   2 Input   23 Bit        Muxes := 2     
+	   4 Input   23 Bit        Muxes := 2     
+	   2 Input   22 Bit        Muxes := 41    
+	   3 Input   22 Bit        Muxes := 2     
+	   8 Input   22 Bit        Muxes := 36    
+	   2 Input   19 Bit        Muxes := 2     
+	   3 Input   19 Bit        Muxes := 6     
+	   2 Input   18 Bit        Muxes := 12    
+	   2 Input   16 Bit        Muxes := 36    
+	   3 Input   16 Bit        Muxes := 4     
+	   2 Input   14 Bit        Muxes := 6     
+	   2 Input   13 Bit        Muxes := 13    
+	   2 Input   12 Bit        Muxes := 6     
+	   4 Input   12 Bit        Muxes := 28    
+	   2 Input   11 Bit        Muxes := 76    
+	   3 Input   11 Bit        Muxes := 5     
+	  13 Input   11 Bit        Muxes := 26    
+	   4 Input   11 Bit        Muxes := 64    
+	   5 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 6     
+	   3 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 453   
+	   4 Input    8 Bit        Muxes := 17    
+	   6 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   5 Input    7 Bit        Muxes := 1     
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 15    
+	   4 Input    6 Bit        Muxes := 4     
+	   2 Input    5 Bit        Muxes := 61    
+	   3 Input    5 Bit        Muxes := 6     
+	   4 Input    5 Bit        Muxes := 4     
+	   5 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 100   
+	   3 Input    4 Bit        Muxes := 5     
+	  14 Input    4 Bit        Muxes := 26    
+	   4 Input    4 Bit        Muxes := 8     
+	   5 Input    4 Bit        Muxes := 1     
+	  13 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 65    
+	   3 Input    3 Bit        Muxes := 17    
+	   5 Input    3 Bit        Muxes := 19    
+	   4 Input    3 Bit        Muxes := 9     
+	  13 Input    3 Bit        Muxes := 1     
+	  12 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 37    
+	   2 Input    2 Bit        Muxes := 123   
+	   6 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 13    
+	   5 Input    2 Bit        Muxes := 5     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1151  
+	   4 Input    1 Bit        Muxes := 135   
+	   5 Input    1 Bit        Muxes := 34    
+	   3 Input    1 Bit        Muxes := 136   
+	   6 Input    1 Bit        Muxes := 2     
+	   7 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP u_a8973e47/s_1a3af9fa_reg, operation Mode is: (A2*B2)'.
+DSP Report: register u_a8973e47/s_d4906465_reg is absorbed into DSP u_a8973e47/s_1a3af9fa_reg.
+DSP Report: register u_a8973e47/s_53af4e42_reg is absorbed into DSP u_a8973e47/s_1a3af9fa_reg.
+DSP Report: register u_a8973e47/s_1a3af9fa_reg is absorbed into DSP u_a8973e47/s_1a3af9fa_reg.
+DSP Report: operator u_a8973e47/s_1a3af9fa0 is absorbed into DSP u_a8973e47/s_1a3af9fa_reg.
+WARNING: [Synth 8-3917] design m_705b8e64__GB0 has port g_be0756b3[0].s_eb1a1c2d driven by constant 0
+WARNING: [Synth 8-3917] design m_705b8e64__GB0 has port s_780bf64a[0] driven by constant 1
+WARNING: [Synth 8-3917] design m_705b8e64__GB0 has port s_9b9cf9e3[0] driven by constant 0
+WARNING: [Synth 8-3917] design m_705b8e64__GB0 has port g_be0756b3[0].s_ff300549 driven by constant 0
+WARNING: [Synth 8-3917] design m_705b8e64__GB0 has port s_6b8148b4[0] driven by constant 0
+WARNING: [Synth 8-7129] Port s_12e7e694[1] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_12e7e694[0] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[95] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[94] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[93] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[92] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[91] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[90] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[89] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[88] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[87] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[86] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[85] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[84] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[83] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[82] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[81] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[80] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[79] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[78] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[77] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[76] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[75] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[74] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[73] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[72] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[71] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[70] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[69] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[68] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[67] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[66] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[65] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[64] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[63] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[62] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[61] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[60] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[59] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[58] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[57] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[56] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[55] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[54] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[53] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[52] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[51] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[50] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[49] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[48] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[47] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[46] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[45] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[44] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[43] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[42] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[41] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[40] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[39] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[38] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[37] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[36] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[35] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[34] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[33] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[32] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[31] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[30] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[29] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[28] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[27] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[26] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[25] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[24] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[23] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[22] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[21] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[20] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[19] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[18] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[17] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[16] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[15] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[14] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[13] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[12] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[11] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[10] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[9] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[8] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[7] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[6] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[5] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[4] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[3] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[2] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[1] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_58c23a90[0] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_3792f176[95] in module m_1dba719c is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_3792f176[94] in module m_1dba719c is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].g_40ae2e02.m_1dba719c /\s_85e99d33_reg[3] )
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[2]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[2]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[1]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[1]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[0]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[0]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[5]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[5]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[4]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[4]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[3]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[3]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[8]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[8]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[7]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[6]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[7]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[6]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[11]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[11]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[10]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[10]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[9]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[9]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[14]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[14]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[13]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[13]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[12]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[12]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[15]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[17]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[17]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[16]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[16]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[20]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[20]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[19]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[19]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[18]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[18]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[23]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[22]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[23]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[22]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[22]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[21]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[22]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[21]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[26]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[26]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[25]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[25]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[24]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[24]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[29]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[29]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[28]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[28]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[27]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[27]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[32]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[32]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[31]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[30]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[31]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[30]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[35]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[35]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[34]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[34]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[33]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[33]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[38]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[38]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[37]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[37]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[36]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[36]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[39]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[41]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[41]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[40]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[40]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[44]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[44]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[43]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[43]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[42]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[42]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[47]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[46]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[47]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[46]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[46]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[45]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[46]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[45]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[50]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[50]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[49]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[49]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[48]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[48]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[53]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[53]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[52]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[52]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[51]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[51]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[56]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[63]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[56]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[63]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[55]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_c4da6cd7_reg[54]'
+INFO: [Synth 8-3886] merging instance 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[55]' (FDS) to 'g_be0756b3[0].g_40ae2e02.m_1dba719c/s_52874c00_reg[54]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[1].s_47e4cdbc_reg[1] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\g_be0756b3[0].s_bff3b607_reg )
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[1].g_d12c2647.s_5b0f0948_reg[1][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[2].g_d12c2647.s_5b0f0948_reg[2][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[3].g_d12c2647.s_5b0f0948_reg[3][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_704944a8[1].g_d12c2647.s_5b0f0948_reg[1][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_704944a8[2].g_d12c2647.s_5b0f0948_reg[2][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_704944a8[3].g_d12c2647.s_5b0f0948_reg[3][1:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:575]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[1][10:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[2][10:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[3][10:0]' into 'g_64cdfbca[2].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[1][10:0]' into 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[2][10:0]' into 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[3][10:0]' into 'g_64cdfbca[3].u_d4d6c03f/g_be865ea7[0].s_31412f74_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:656]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[1].g_17cd759c.s_3484542e_reg[1][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[2].g_17cd759c.s_3484542e_reg[2][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[3].g_17cd759c.s_3484542e_reg[3][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[4].g_17cd759c.s_3484542e_reg[4][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[5].g_17cd759c.s_3484542e_reg[5][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[6].g_17cd759c.s_3484542e_reg[6][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[7].g_17cd759c.s_3484542e_reg[7][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[8].g_17cd759c.s_3484542e_reg[8][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[9].g_17cd759c.s_3484542e_reg[9][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[10].g_17cd759c.s_3484542e_reg[10][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[11].g_17cd759c.s_3484542e_reg[11][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[12].g_17cd759c.s_3484542e_reg[12][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[1][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[2][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[3][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[4][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[5][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[6][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[7][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[8][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[9][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[10][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[11][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[12][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[1][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[2][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[3][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[4][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[5][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[6][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[7][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[8][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[9][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[10][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[11][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[12][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+WARNING: [Synth 8-3936] Found unconnected internal register 'g_611ebcf4.s_6eab44ee_reg' and it is trimmed from '112' to '107' bits. [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1437]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[1].g_17cd759c.s_3484542e_reg[1][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[2].g_17cd759c.s_3484542e_reg[2][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[3].g_17cd759c.s_3484542e_reg[3][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[4].g_17cd759c.s_3484542e_reg[4][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[5].g_17cd759c.s_3484542e_reg[5][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[6].g_17cd759c.s_3484542e_reg[6][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[7].g_17cd759c.s_3484542e_reg[7][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[8].g_17cd759c.s_3484542e_reg[8][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[9].g_17cd759c.s_3484542e_reg[9][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[10].g_17cd759c.s_3484542e_reg[10][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[11].g_17cd759c.s_3484542e_reg[11][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_8449abb5[12].g_17cd759c.s_3484542e_reg[12][3:0]' into 'g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][3:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1660]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[1][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[2][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[3][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[4][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[5][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[6][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[7][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[8][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[9][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[10][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[11][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_c3a4b251_reg[12][10:0]' into 'g_50d2534e[0].s_c3a4b251_reg[0][10:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1826]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[1][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[2][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[3][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[4][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[5][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[6][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[7][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[8][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[9][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[10][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[11][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_50d2534e[0].s_71b70688_reg[12][95:0]' into 'g_50d2534e[0].s_71b70688_reg[0][95:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1829]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_9e5ab1fb.u_a7dfcfe5/g_2c1b3bfa.s_4605a0de_reg' into 'g_64cdfbca[1].u_d4d6c03f/g_9e5ab1fb.u_a7dfcfe5/g_2c1b3bfa.s_4605a0de_reg' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9122]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[0].g_706b8664.s_8b512823_reg[0][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[0].g_706b8664.s_8b512823_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9367]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[3].g_a34448e5.s_8b512823_reg[3][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[3].g_a34448e5.s_8b512823_reg[3][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[2].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_9e5ab1fb.u_a7dfcfe5/g_2c1b3bfa.s_4605a0de_reg' into 'g_64cdfbca[1].u_d4d6c03f/g_9e5ab1fb.u_a7dfcfe5/g_2c1b3bfa.s_4605a0de_reg' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9122]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[0].g_706b8664.s_8b512823_reg[0][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[0].g_706b8664.s_8b512823_reg[0][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9367]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[3].g_a34448e5.s_8b512823_reg[3][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[3].g_a34448e5.s_8b512823_reg[3][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+INFO: [Synth 8-4471] merging register 'g_64cdfbca[3].u_d4d6c03f/g_60c33e66.g_b235cc2b[1].u_851ed96d/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][1:0]' into 'g_64cdfbca[1].u_d4d6c03f/g_60c33e66.g_b235cc2b[2].u_851ed96d/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][1:0]' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9374]
+WARNING: [Synth 8-3936] Found unconnected internal register 'g_64cdfbca[1].u_d4d6c03f/g_9e5ab1fb.u_a7dfcfe5/g_2c1b3bfa.s_97980d83_reg' and it is trimmed from '28' to '27' bits. [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:9132]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_099c94b4/\g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_099c94b4/\g_64cdfbca[2].u_d4d6c03f/g_704944a8[0].g_d12c2647.s_5b0f0948_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_3124dbb0/\g_35d7d1fc[1].u_896d2935 /\g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_3124dbb0/\g_35d7d1fc[0].u_896d2935 /\g_8449abb5[0].g_17cd759c.s_3484542e_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_3124dbb0/\g_35d7d1fc[1].u_896d2935 /\g_290768fc.u_d24cacb9/g_2c1b3bfa.s_97980d83_reg[107] )
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_6ad31904/g_35d7d1fc[0].u_896d2935/g_611ebcf4.s_6eab44ee_reg' and it is trimmed from '109' to '107' bits. [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:1437]
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_567ecf9c[0] driven by constant 1
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_aeda050b[0] driven by constant 1
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[95] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[94] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[93] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[92] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[91] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[90] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[89] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[88] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[87] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[86] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[85] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[84] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[83] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[82] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[81] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[80] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[79] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[78] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[77] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[76] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[75] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[74] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[73] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[72] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[71] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[70] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[69] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[68] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[67] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[66] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[65] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[64] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[63] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[62] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[61] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[60] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[59] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[58] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[57] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[56] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[55] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[54] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[53] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[52] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[51] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[50] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[49] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[48] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[47] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[46] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[45] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[44] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[43] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[42] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[41] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[40] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[39] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[38] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[37] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[36] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[35] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[34] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[33] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[32] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[31] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[30] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[29] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[28] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[27] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[26] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[25] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[24] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[23] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[22] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[21] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[20] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[19] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[18] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[17] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[16] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[15] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[14] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[13] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[12] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[11] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[10] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[9] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[8] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[7] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[6] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[5] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[4] driven by constant 0
+WARNING: [Synth 8-3917] design m_cb871113__GB1 has port s_6540d576[3] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[0].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[1].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[2].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[3].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[4].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[5].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[6].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_585e8a0a/g_140a8eb4[7].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[0].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[1].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[2].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[3].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[4].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[5].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[6].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[7].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[8].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[9].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[10].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[11].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_8578cac3/g_cf5ffc2b[12].u_023226ce/s_92cda069_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 6 RAM instances of RAM u_dfd908ed/u_a6b8c3d9/g_140a8eb4[0].u_2a919f82/s_92cda069_reg to conserve power
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_a838ec59/\g_35d7d1fc[3].u_896d2935 /\g_8449abb5[0].g_43709052.s_3484542e_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_a838ec59/\g_35d7d1fc[2].u_896d2935 /\g_8449abb5[0].g_43709052.s_3484542e_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_a838ec59/\g_35d7d1fc[1].u_896d2935 /\g_8449abb5[0].g_43709052.s_3484542e_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_a838ec59/\g_35d7d1fc[0].u_896d2935 /\g_8449abb5[0].g_43709052.s_3484542e_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_6ad31904/g_35d7d1fc[1].u_896d2935/g_290768fc.u_d24cacb9/g_2c1b3bfa.s_97980d83_reg[107] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_6ad31904/g_35d7d1fc[1].u_896d2935/g_290768fc.u_d24cacb9/g_2c1b3bfa.s_97980d83_reg[108] )
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_23aada30/s_46f74f7c_reg' and it is trimmed from '5' to '4' bits. [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:24441]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_900d28db/i_0/\s_5a521bba_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_900d28db/i_0/\s_5a521bba_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\u_23aada30/s_0765b372_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\u_23aada30/s_0765b372_reg[1] )
+INFO: [Synth 8-4471] merging register 'g_7e013b5a[1].g_346a4f3a.s_99216fd7_reg' into 'g_7e013b5a[0].g_b95b5937.u_6ee4500c/s_ee2c936d_reg' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:11952]
+INFO: [Synth 8-4471] merging register 'g_7e013b5a[2].g_346a4f3a.s_99216fd7_reg' into 'g_7e013b5a[0].g_b95b5937.u_6ee4500c/s_b083119d_reg' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:11952]
+INFO: [Synth 8-4471] merging register 'g_7e013b5a[1].g_b95b5937.u_6ee4500c/s_ee2c936d_reg' into 'g_7e013b5a[0].g_b95b5937.u_6ee4500c/s_b083119d_reg' [c:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ipshared/fe10/hdl/dpu_eu_v3_0_vl_rfs.v:12237]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/u_6f2ee474/g_33d1faa8[0].s_fad5150d_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[192] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[193] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[194] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[195] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[196] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[197] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[198] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[199] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[200] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[201] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[202] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[203] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[204] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[205] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[206] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[207] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[208] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[209] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[210] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[211] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[212] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[213] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[214] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[215] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[216] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[217] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[218] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[219] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[220] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[221] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[222] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[223] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[224] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[225] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[226] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[227] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[228] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[229] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[230] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[231] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[232] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[233] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[234] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[235] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[236] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[237] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[238] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[239] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[240] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[241] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[242] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[243] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[244] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[245] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[246] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[247] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[248] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[249] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[250] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[251] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[252] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[253] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[254] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[255] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[256] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[257] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[258] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[259] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[260] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[261] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[262] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst_rd_pool_img/s_2c4a77ce_reg[263] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:10 ; elapsed = 00:02:46 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+-----------------------------------------------------------------------------------------------+---------------+----------------+
+|Module Name | RTL Object                                                                                    | Depth x Width | Implemented As | 
++------------+-----------------------------------------------------------------------------------------------+---------------+----------------+
+|m_1dba719c  | s_d7effb8f                                                                                    | 32x96         | LUT            | 
+|m_1dba719c  | s_d7effb8f                                                                                    | 32x96         | LUT            | 
+|m_1dba719c  | s_d7effb8f                                                                                    | 32x96         | LUT            | 
+|m_1dba719c  | s_d7effb8f                                                                                    | 32x96         | LUT            | 
+|m_1c9fdba6  | s_cab36017                                                                                    | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[0].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[1].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[2].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[1].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[2].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[0].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[0].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[1].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[2].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[1].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[2].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[0].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[0].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[1].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[2].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[1].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[2].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[0].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[0].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[0].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[1].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_3f964ce6[2].u_43b01df4/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[1].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[2].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
+|m_d2177627  | g_7e013b5a[2].g_2f7783b8.u_342b4e00/g_54a8b342.u_b032a817/g_a492b0a7[0].u_df7ea0e3/s_cab36017 | 32x3          | LUT            | 
++------------+-----------------------------------------------------------------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name     | RTL Object                                                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[0].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[1].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[2].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[3].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[4].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[5].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[6].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[7].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[0].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[1].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[2].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[3].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[4].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[5].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[6].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[7].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[8].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[9].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[10].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[11].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[12].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_a6b8c3d9/g_140a8eb4[0].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|inst            | u_55dd7bd4/u_c1aeae19/u_c2b52391/s_92cda069_reg                | 512 x 111(READ_FIRST)  | W |   | 512 x 111(WRITE_FIRST) |   | R | Port A and B     | 0      | 2      | 
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+|Module Name                        | RTL Object                                                                  | Inference      | Size (Depth x Width) | Primitives    | 
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+|\g_be0756b3[0].u_b7f50537          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 110             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_b7f50537          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 110             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_37297a94          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 111             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_842ea6d7          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 32 x 108             | RAM32M x 18	  | 
+|\g_be0756b3[1].u_12cb6f66          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 32 x 102             | RAM32M x 17	  | 
+|inst/u_4314ae56i_3/u_c264af15      | g_c6859d57[0].u_efb10811/u_c2b52391/s_92cda069_reg                          | User Attribute | 4 x 103              | RAM32M x 18	  | 
+|inst/u_4314ae56i_3/u_c264af15      | g_c6859d57[1].u_efb10811/u_c2b52391/s_92cda069_reg                          | User Attribute | 4 x 103              | RAM32M x 18	  | 
+|m_cb871113__GB1                    | g_ccc7d729[6].u_ab33d219/u_d69eca3d/u_c2b52391/s_92cda069_reg               | User Attribute | 32 x 96              | RAM32M x 16	  | 
+|m_cb871113__GB1                    | g_ccc7d729[7].u_ab33d219/u_d69eca3d/u_c2b52391/s_92cda069_reg               | User Attribute | 32 x 96              | RAM32M x 16	  | 
+|inst                               | g_d4cf40a3[0].u_a14521cf/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 73              | RAM32M x 13	  | 
+|inst                               | g_d4cf40a3[1].u_a14521cf/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 73              | RAM32M x 13	  | 
+|inst                               | u_5e7e273e/u_d4c903c9/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 4               | RAM64M x 2	   | 
+|inst                               | u_5e7e273e/u_d917ac9b/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 4               | RAM64M x 2	   | 
+|inst                               | u_4fc06dda/u_5e5a7180/u_0602f15c/u_d69eca3d/u_c2b52391/s_92cda069_reg       | User Attribute | 32 x 13              | RAM32M x 3	   | 
+|inst                               | u_402ff78a/u_346454c4/u_b3280cff/u_c2b52391/s_92cda069_reg                  | User Attribute | 32 x 1               | RAM32X1D x 1	 | 
+|m_97824ec9__GB0                    | inst_rd_pool_img/g_05566174.u_d40aac67/u_d69eca3d/u_c2b52391/s_92cda069_reg | User Attribute | 16 x 57              | RAM32M x 10	  | 
+|m_97824ec9__GB0                    | inst_rd_pool_img/u_08bcc94c/u_d69eca3d/u_c2b52391/s_92cda069_reg            | User Attribute | 32 x 11              | RAM32M x 2	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_2917af6a | u_d11ad605/u_c2b52391/s_92cda069_reg                                        | User Attribute | 64 x 32              | RAM64M x 11	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | s_66d8a352_reg                                                              | Implied        | 16 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | u_ff66cab9/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 128             | RAM32M x 22	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | g_4af77840[0].u_b5877907/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | g_4af77840[1].u_b5877907/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_c17d2da9 | u_81af1baf/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 128             | RAM32M x 22	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_4d784d88 | u_38d90bdc/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 160             | RAM32M x 27	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_4d784d88 | u_3199b5ac/u_c2b52391/s_92cda069_reg                                        | User Attribute | 16 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_87e1526d | u_d6a16abd/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 160             | RAM32M x 27	  | 
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|m_992a1b73  | (A2*B2)'    | 13     | 11     | -      | -      | 22     | 1    | 1    | -    | -    | -     | 1    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:23 ; elapsed = 00:03:00 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:47 ; elapsed = 00:03:25 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name     | RTL Object                                                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[0].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[1].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[2].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[3].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[4].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[5].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[6].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_585e8a0a/g_140a8eb4[7].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[0].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[1].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[2].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[3].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[4].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[5].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[6].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[7].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[8].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[9].u_023226ce/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[10].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[11].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_8578cac3/g_cf5ffc2b[12].u_023226ce/s_92cda069_reg | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|m_cb871113__GB1 | u_dfd908ed/u_a6b8c3d9/g_140a8eb4[0].u_2a919f82/s_92cda069_reg  | 2 K x 96(READ_FIRST)   | W |   | 2 K x 96(WRITE_FIRST)  |   | R | Port A and B     | 1      | 5      | 
+|inst            | u_55dd7bd4/u_c1aeae19/u_c2b52391/s_92cda069_reg                | 512 x 111(READ_FIRST)  | W |   | 512 x 111(WRITE_FIRST) |   | R | Port A and B     | 0      | 2      | 
++----------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+|Module Name                        | RTL Object                                                                  | Inference      | Size (Depth x Width) | Primitives    | 
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+|\g_be0756b3[0].u_b7f50537          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 110             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_b7f50537          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 110             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_37297a94          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 111             | RAM64M x 37	  | 
+|\g_be0756b3[1].u_842ea6d7          | g_7f7da5da.u_52ef9738/u_c2b52391/s_92cda069_reg                             | User Attribute | 32 x 108             | RAM32M x 18	  | 
+|inst/u_4314ae56i_3/u_c264af15      | g_c6859d57[0].u_efb10811/u_c2b52391/s_92cda069_reg                          | User Attribute | 4 x 103              | RAM32M x 18	  | 
+|inst/u_4314ae56i_3/u_c264af15      | g_c6859d57[1].u_efb10811/u_c2b52391/s_92cda069_reg                          | User Attribute | 4 x 103              | RAM32M x 18	  | 
+|m_cb871113__GB1                    | g_ccc7d729[6].u_ab33d219/u_d69eca3d/u_c2b52391/s_92cda069_reg               | User Attribute | 32 x 96              | RAM32M x 16	  | 
+|m_cb871113__GB1                    | g_ccc7d729[7].u_ab33d219/u_d69eca3d/u_c2b52391/s_92cda069_reg               | User Attribute | 32 x 96              | RAM32M x 16	  | 
+|inst                               | g_d4cf40a3[0].u_a14521cf/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 73              | RAM32M x 13	  | 
+|inst                               | g_d4cf40a3[1].u_a14521cf/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 73              | RAM32M x 13	  | 
+|inst                               | u_5e7e273e/u_d4c903c9/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 4               | RAM64M x 2	   | 
+|inst                               | u_5e7e273e/u_d917ac9b/u_c2b52391/s_92cda069_reg                             | User Attribute | 64 x 4               | RAM64M x 2	   | 
+|inst                               | u_4fc06dda/u_5e5a7180/u_0602f15c/u_d69eca3d/u_c2b52391/s_92cda069_reg       | User Attribute | 32 x 13              | RAM32M x 3	   | 
+|inst                               | u_402ff78a/u_346454c4/u_b3280cff/u_c2b52391/s_92cda069_reg                  | User Attribute | 32 x 1               | RAM32X1D x 1	 | 
+|m_97824ec9__GB0                    | inst_rd_pool_img/g_05566174.u_d40aac67/u_d69eca3d/u_c2b52391/s_92cda069_reg | User Attribute | 16 x 57              | RAM32M x 10	  | 
+|m_97824ec9__GB0                    | inst_rd_pool_img/u_08bcc94c/u_d69eca3d/u_c2b52391/s_92cda069_reg            | User Attribute | 32 x 11              | RAM32M x 2	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_2917af6a | u_d11ad605/u_c2b52391/s_92cda069_reg                                        | User Attribute | 64 x 32              | RAM64M x 11	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | s_66d8a352_reg                                                              | Implied        | 16 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | u_ff66cab9/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 128             | RAM32M x 22	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | g_4af77840[0].u_b5877907/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_6c17acc6 | g_4af77840[1].u_b5877907/u_c2b52391/s_92cda069_reg                          | User Attribute | 32 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_c17d2da9 | u_81af1baf/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 128             | RAM32M x 22	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_4d784d88 | u_38d90bdc/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 160             | RAM32M x 27	  | 
+|\u_d185dc89/u_1c8d8ad4 /u_4d784d88 | u_3199b5ac/u_c2b52391/s_92cda069_reg                                        | User Attribute | 16 x 4               | RAM32M x 1	   | 
+|\u_d185dc89/u_1c8d8ad4 /u_87e1526d | u_d6a16abd/u_c2b52391/s_92cda069_reg                                        | User Attribute | 32 x 160             | RAM32M x 27	  | 
++-----------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/u_5e95f3e2i_15/u_55dd7bd4/u_c1aeae19/u_c2b52391/s_92cda069_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_5e95f3e2i_15/u_55dd7bd4/u_c1aeae19/u_c2b52391/s_92cda069_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:19 ; elapsed = 00:04:06 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_55dd7bd4/u_c1aeae19/u_c2b52391/s_92cda069_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:34 ; elapsed = 00:04:21 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:34 ; elapsed = 00:04:22 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:58 ; elapsed = 00:04:46 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:59 ; elapsed = 00:04:47 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:02 ; elapsed = 00:04:50 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:03 ; elapsed = 00:04:51 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                                                                                                            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_4314ae56/u_fcfb07e1/g_2b070d9a[1].s_bbc24673_reg                                                                 | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_3124dbb0/g_35d7d1fc[0].u_896d2935/g_50d2534e[0].s_c3a4b251_reg[0][10]                                 | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[0].u_d4d6c03f/g_1014825e.u_b935f3e3/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][0] | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_099c94b4/g_64cdfbca[0].u_d4d6c03f/u_ac5485bb/g_7a0353b0[5].g_a34448e5.s_8b512823_reg[5][0]            | 6      | 20    | NO           | NO                 | YES               | 20     | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_a838ec59/g_35d7d1fc[0].u_896d2935/g_50d2534e[0].s_71b70688_reg[0][95]                                 | 3      | 64    | NO           | NO                 | YES               | 64     | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_a838ec59/g_35d7d1fc[0].u_896d2935/g_50d2534e[0].s_71b70688_reg[0][63]                                 | 4      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_030d789c/u_06e6ba5a/g_64cdfbca[0].u_d4d6c03f/u_ac5485bb/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][0]            | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_25c793f4/u_8f276c93/g_d4cf40a3[0].u_7d540bc6/u_900d28db/s_0972da70_reg[3]                                        | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_d7fbebb7/g_7a0353b0[7].g_a34448e5.s_8b512823_reg[7][0]                                     | 8      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/s_5552adfa_reg                                                                               | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_373ecd82/g_7a0353b0[5].g_a34448e5.s_8b512823_reg[5][0]                                     | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_fc262e23/g_7a0353b0[10].g_a34448e5.s_8b512823_reg[10][0]                                   | 11     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_2e9f3b82/g_7a0353b0[5].g_a34448e5.s_8b512823_reg[5][0]                                     | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_ee1d1c6f/g_7a0353b0[3].g_a34448e5.s_8b512823_reg[3][0]                                     | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_dcd815c9/u_3bb24e7c/g_7a0353b0[6].g_a34448e5.s_8b512823_reg[6][0]                                     | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_3aa346a2/u_4fc06dda/u_5e5a7180/u_9c8ad2f1/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][0]                          | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_1134bd62/inst_rd_pool_img/u_fd2201c3/g_7a0353b0[1].g_a34448e5.s_8b512823_reg[1][0]                    | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_1134bd62/u_18022e7e/u_2bf49336/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][1]                          | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_1134bd62/u_18022e7e/s_e0e70019_reg                                                                    | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_1134bd62/u_18022e7e/u_32099234/g_7a0353b0[2].g_a34448e5.s_8b512823_reg[2][1]                          | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_1134bd62/s_047b289e_reg[5]                                                                            | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_d8bbec23/u_b58dc603/s_3411bc6a_reg[3]                                                                 | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_55dd7bd4/u_125dad96/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][0]                                     | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dpu_eu_v3_0 | g_e584eb07.u_822a997b/u_8329ce29/u_5e95f3e2/u_55dd7bd4/u_0152d8fc/g_7a0353b0[4].g_a34448e5.s_8b512823_reg[4][0]                                     | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |  2949|
+|2     |DSP48E1  |   212|
+|7     |LUT1     |   844|
+|8     |LUT2     |  3978|
+|9     |LUT3     | 13379|
+|10    |LUT4     |  6299|
+|11    |LUT5     |  3860|
+|12    |LUT6     | 14768|
+|13    |MUXF7    |   300|
+|14    |MUXF8    |    33|
+|15    |RAM32M   |   222|
+|16    |RAM32X1D |     1|
+|17    |RAM64M   |   126|
+|18    |RAMB18E1 |    22|
+|19    |RAMB36E1 |   112|
+|22    |SRL16E   |   650|
+|23    |FDRE     | 62453|
+|24    |FDSE     |   648|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:03 ; elapsed = 00:04:51 . Memory (MB): peak = 1948.965 ; gain = 885.758
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 334 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:05 ; elapsed = 00:04:24 . Memory (MB): peak = 1948.965 ; gain = 420.637
+Synthesis Optimization Complete : Time (s): cpu = 00:04:03 ; elapsed = 00:04:52 . Memory (MB): peak = 1948.965 ; gain = 885.758
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1948.965 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3977 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2075.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 349 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 222 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+  RAM64M => RAM64M (RAMD64E(x4)): 126 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+401 Infos, 204 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:39 ; elapsed = 00:05:32 . Memory (MB): peak = 2075.406 ; gain = 1012.199
+INFO: [Common 17-1381] The checkpoint 'C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_dpu_eu_0_0_synth_1/zedboard_dpu_dpu_eu_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:16 . Memory (MB): peak = 2075.406 ; gain = 0.000
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zedboard_dpu_dpu_eu_0_0, cache-ID = 68e40043f118195c
+INFO: [Coretcl 2-1174] Renamed 1417 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_dpu_eu_0_0_synth_1/zedboard_dpu_dpu_eu_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 2075.406 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file zedboard_dpu_dpu_eu_0_0_utilization_synth.rpt -pb zedboard_dpu_dpu_eu_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 22 15:41:14 2024...

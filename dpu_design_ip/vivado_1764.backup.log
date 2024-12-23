@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Dec 22 17:10:04 2024
+# Process ID: 1764
+# Current directory: E:/TUBITAK-2209/dpu_design_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4472 E:\TUBITAK-2209\dpu_design_ip\dpu_design_ip.xpr
+# Log file: E:/TUBITAK-2209/dpu_design_ip/vivado.log
+# Journal file: E:/TUBITAK-2209/dpu_design_ip\vivado.jou
+# Running On: DESKTOP-VTDBCS3, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8345 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project E:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/yasin/Desktop/dpu_design_ip' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/TUBITAK-2209/zcu102-dpu-trd-2019-1-timer/pl/srcs/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'zedboard_dpu.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+zedboard_dpu_proc_sys_reset_0_0
+zedboard_dpu_processing_system7_0_0
+zedboard_dpu_proc_sys_reset_0_2
+zedboard_dpu_dpu_eu_0_0
+zedboard_dpu_xlconcat_0_0
+zedboard_dpu_proc_sys_reset_0_1
+zedboard_dpu_clk_wiz_0_0
+
+INFO: [Project 1-230] Project 'dpu_design_ip.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1084.020 ; gain = 139.250
+upgrade_project -migrate_output_products
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_processing_system7_0_0' is locked:
+* This IP has board specific outputs. Current project board 'unset' and the board 'em.avnet.com:zed:part0:1.4' used to customize the IP 'zedboard_dpu_processing_system7_0_0' do not match.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_processing_system7_0_0.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_processing_system7_0_0'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_processing_system7_0_0'.
+WARNING: [IP_Flow 19-2162] IP 'fp_add' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'fp_add' (customized with software release 2020.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'fp_acc' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'fp_acc' (customized with software release 2020.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'fp_div' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'fp_div' (customized with software release 2020.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'fp_convert' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'fp_convert' (customized with software release 2020.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'fp_exp' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'fp_exp' (customized with software release 2020.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_dpu_eu_0_0' is locked:
+* IP 'zedboard_dpu_dpu_eu_0_0' contains one or more locked subcores.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_dpu_eu_0_0.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_dpu_eu_0_0'.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_xlconcat_0_0' is locked:
+* IP definition 'Concat (2.1)' for IP 'zedboard_dpu_xlconcat_0_0' (customized with software release 2020.1) has a different revision in the IP Catalog.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_xlconcat_0_0.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_xlconcat_0_0'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_xlconcat_0_0'.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_proc_sys_reset_0_0' is locked:
+* This IP has board specific outputs. Current project board 'unset' and the board 'em.avnet.com:zed:part0:1.4' used to customize the IP 'zedboard_dpu_proc_sys_reset_0_0' do not match.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_proc_sys_reset_0_0.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_0'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_0'.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_proc_sys_reset_0_1' is locked:
+* This IP has board specific outputs. Current project board 'unset' and the board 'em.avnet.com:zed:part0:1.4' used to customize the IP 'zedboard_dpu_proc_sys_reset_0_1' do not match.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_proc_sys_reset_0_1.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_1'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_1'.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_proc_sys_reset_0_2' is locked:
+* This IP has board specific outputs. Current project board 'unset' and the board 'em.avnet.com:zed:part0:1.4' used to customize the IP 'zedboard_dpu_proc_sys_reset_0_2' do not match.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_proc_sys_reset_0_2.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_2'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_proc_sys_reset_0_2'.
+WARNING: [IP_Flow 19-2162] IP 'zedboard_dpu_clk_wiz_0_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'zedboard_dpu_clk_wiz_0_0' (customized with software release 2020.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'unset' and the board 'em.avnet.com:zed:part0:1.4' used to customize the IP 'zedboard_dpu_clk_wiz_0_0' do not match.
+INFO: [BD 41-2710] Migrated 'zedboard_dpu_clk_wiz_0_0.xci'
+  Source files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_clk_wiz_0_0'
+  Output files are located in 'e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.gen/sources_1/bd/zedboard_dpu/ip/zedboard_dpu_clk_wiz_0_0'.
+update_compile_order -fileset sources_1
+open_bd_design {e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/zedboard_dpu.bd}
+Reading block design file <e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/zedboard_dpu.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:dpu_eu:3.0 - dpu_eu_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_300M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_150M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Successfully read diagram <zedboard_dpu> from block design file <e:/TUBITAK-2209/dpu_design_ip/dpu_design_ip.srcs/sources_1/bd/zedboard_dpu/zedboard_dpu.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1115.090 ; gain = 15.156

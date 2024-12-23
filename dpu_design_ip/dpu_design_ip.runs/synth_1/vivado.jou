@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 22 15:41:17 2024
+# Process ID: 15484
+# Current directory: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/synth_1
+# Command line: vivado.exe -log zedboard_dpu_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zedboard_dpu_wrapper.tcl
+# Log file: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/synth_1/zedboard_dpu_wrapper.vds
+# Journal file: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source zedboard_dpu_wrapper.tcl -notrace

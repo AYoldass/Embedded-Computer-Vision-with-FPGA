@@ -1,0 +1,6 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "deploy.xmodel",
+    "kernel": "",
+    "target": "DPUCZDX8G_ISA1_B4096"
+}

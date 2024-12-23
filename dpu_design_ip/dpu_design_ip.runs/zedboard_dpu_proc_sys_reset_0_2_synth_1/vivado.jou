@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 22 15:35:00 2024
+# Process ID: 14104
+# Current directory: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_proc_sys_reset_0_2_synth_1
+# Command line: vivado.exe -log zedboard_dpu_proc_sys_reset_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zedboard_dpu_proc_sys_reset_0_2.tcl
+# Log file: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_proc_sys_reset_0_2_synth_1/zedboard_dpu_proc_sys_reset_0_2.vds
+# Journal file: C:/Users/yasin/Desktop/dpu_design_ip/dpu_design_ip.runs/zedboard_dpu_proc_sys_reset_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zedboard_dpu_proc_sys_reset_0_2.tcl -notrace
