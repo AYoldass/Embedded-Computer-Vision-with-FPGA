@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Dec 12 21:54:20 2018
+# Process ID: 5884
+# Current directory: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent960 C:\Users\mcanb\OneDrive\Desktop\basys3_ov7670_v1\basys3_ov7670_v1\basys3_ov7670_v1.xpr
+# Log file: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/vivado.log
+# Journal file: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/basys3_ov7670_v1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 827.820 ; gain = 127.672
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Dec 12 21:56:10 2018] Launched synth_1...
+Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Dec 12 21:57:32 2018] Launched impl_1...
+Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 12 21:59:37 2018] Launched impl_1...
+Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/impl_1/runme.log
+open_hw
+close_hw

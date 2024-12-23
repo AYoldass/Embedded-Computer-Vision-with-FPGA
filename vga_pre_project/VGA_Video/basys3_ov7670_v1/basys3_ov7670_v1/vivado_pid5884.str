@@ -1,0 +1,187 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 5884
+License: Customer
+
+Current time: 	Wed Dec 12 20:55:11 EET 2018
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 29 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	mcanb
+User home directory: C:/Users/mcanb
+User working directory: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2018.1
+RDI_DATADIR: D:/vivado/Vivado/2018.1/data
+RDI_BINDIR: D:/vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/mcanb/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/mcanb/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/mcanb/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/vivado.log
+Vivado journal file location: 	C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/vivado.jou
+Engine tmp dir: 	C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/.Xil/Vivado-5884-DESKTOP-010DTS5
+
+GUI allocated memory:	147 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 520 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 63 MB (+63172kb) [00:00:11]
+// [Engine Memory]: 511 MB (+383904kb) [00:00:11]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aL (ch): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 520 MB. GUI used memory: 37 MB. Current time: 12/12/18 8:55:13 PM EET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: C:\Users\mcanb\OneDrive\Desktop\basys3_ov7670_v1\basys3_ov7670_v1\basys3_ov7670_v1.xpr. Version: Vivado v2017.3 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (ch)
+// Tcl Message: open_project C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 37 MB. Current time: 12/12/18 8:55:28 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 556 MB (+20968kb) [00:00:32]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 585 MB (+602kb) [00:00:37]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 638 MB (+25852kb) [00:00:40]
+// [Engine Memory]: 671 MB (+485kb) [00:00:42]
+// Tcl Message: open_project C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/basys3_ov7670_v1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 827.820 ; gain = 127.672 
+// Project name: basys3_ov7670_v1; location: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1; part: xc7a35tcpg236-3
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 66 MB (+522kb) [00:00:45]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// al (ch): Project Upgraded: addNotify
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, "Report IP Status"); // a (al)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Project Upgraded"); // al (ch)
+// Tcl Message: report_ip_status -name ip_status  
+// bv (ch):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bv (ch)
+// [GUI Memory]: 74 MB (+4599kb) [00:00:50]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(Behavioral) (top_level.vhd)]", 1); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 43 MB. Current time: 12/12/18 8:55:53 PM EET
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec 12 21:56:10 2018] Launched synth_1... Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+// [GUI Memory]: 81 MB (+3494kb) [00:01:13]
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 78 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "8", 7); // e (aU, f)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Wed Dec 12 21:57:32 2018] Launched impl_1... Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 88 MB (+2612kb) [00:03:08]
+// PAPropertyPanels.initPanels (frame_buffer.xci) elapsed time: 0.2s
+// Elapsed time: 82 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(Behavioral) (top_level.vhd), Inst_frame_buffer : frame_buffer (frame_buffer.xci)]", 6, false); // B (D, ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 37 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ch): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // e (aU, f)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_MODIFY
+// bv (ch):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Dec 12 21:59:37 2018] Launched impl_1... Run output will be captured here: C:/Users/mcanb/OneDrive/Desktop/basys3_ov7670_v1/basys3_ov7670_v1/basys3_ov7670_v1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bv (ch)
+// [Engine Memory]: 708 MB (+3255kb) [00:04:43]
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 118 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aC, ch)

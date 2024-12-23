@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Dec 20 10:12:33 2018
+# Process ID: 1100
+# Current directory: C:/Users/mcanb/OneDrive/Desktop/Yeni klasör (2)/basys3_ov7670_v1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7012 C:\Users\mcanb\OneDrive\Desktop\Yeni klasör (2)\basys3_ov7670_v1\basys3_ov7670_v1.xpr
+# Log file: C:/Users/mcanb/OneDrive/Desktop/Yeni klasör (2)/basys3_ov7670_v1/vivado.log
+# Journal file: C:/Users/mcanb/OneDrive/Desktop/Yeni klasör (2)/basys3_ov7670_v1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 20 10:12:56 2018...

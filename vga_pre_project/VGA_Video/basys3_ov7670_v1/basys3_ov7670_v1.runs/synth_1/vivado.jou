@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Dec 20 10:18:46 2018
+# Process ID: 12040
+# Current directory: C:/Users/mcanb/OneDrive/Desktop/fg/basys3_ov7670_v1/basys3_ov7670_v1.runs/synth_1
+# Command line: vivado.exe -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: C:/Users/mcanb/OneDrive/Desktop/fg/basys3_ov7670_v1/basys3_ov7670_v1.runs/synth_1/top_level.vds
+# Journal file: C:/Users/mcanb/OneDrive/Desktop/fg/basys3_ov7670_v1/basys3_ov7670_v1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
